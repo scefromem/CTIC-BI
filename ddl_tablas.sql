@@ -8,3 +8,6 @@ nombre varchar2(30)
 apellido varchar2(30)
 )
 
+tablespace tmp;
+commit;
+exit;
